@@ -8,18 +8,20 @@ import Dashboard from './pages/Dashboard';
 
 const App = () => {
     return (
-        <Router>
-            <div className="app">
-                <Header />
-                <main>
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/dashboard" element={<Dashboard />} />
-                    </Routes>
-                </main>
+        <div className="app-wrapper">
+            <Router>
+                <div className="app">
+                    <Header />
+                    <main>
+                        <Routes>
+                            <Route path="/" element={<Home />} />
+                            <Route path="/dashboard" element={<Dashboard />} />
+                        </Routes>
+                    </main>
+                </div>
                 <Footer />
-            </div>
-        </Router>
+            </Router>
+        </div>
     );
 };
 
