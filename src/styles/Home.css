@@ -1,0 +1,53 @@
+/* src/styles/Home.css */
+.home {
+    padding: 2rem;
+    color: white;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.features h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background: #333;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.testimonials {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 0;
+}
+
+.testimonials cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}

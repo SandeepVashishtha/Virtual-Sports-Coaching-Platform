@@ -26,16 +26,16 @@
 }
 
 .nav-links a {
-    color: white;
+    color: #b5b5b5;
     text-decoration: none;
 }
 
 .header.transparent {
-    background-color: #101932;
+    background-color: #000;
 }
 
 .header.scrolled {
-    background-color: #1c3f60;
+    background-color: #252525;
     color: white;
     padding: 1rem 2rem;
 }

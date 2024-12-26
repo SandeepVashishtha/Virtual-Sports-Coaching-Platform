@@ -2,7 +2,7 @@
 html, body {
   height: auto;
   margin: 0;
-  background: linear-gradient(to bottom, #101932 100%, #000000 10%, #000000 15%, #101932 100%);
+  background: #000;
   color: white;
 }
 /* src/index.css */
