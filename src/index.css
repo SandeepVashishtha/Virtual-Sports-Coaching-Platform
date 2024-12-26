@@ -1,6 +1,13 @@
+/* src/index.css */
 html, body {
-  height: 100%;
+  height: auto;
   margin: 0;
+  background: linear-gradient(to bottom, #101932 100%, #000000 10%, #000000 15%, #101932 100%);
+  color: white;
+}
+/* src/index.css */
+.main-content {
+  padding-top: 5em; /* Adjust this value based on the height of your header */
 }
 
 .app-wrapper {
@@ -12,6 +19,7 @@ html, body {
 .app {
   flex: 1;
 }
+
 
 footer {
   background: #f1f1f1;

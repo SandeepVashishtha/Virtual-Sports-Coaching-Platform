@@ -1,7 +1,11 @@
+/* src/styles/Header.css */
 .header {
-    background-color: #101932;
     color: white;
     padding: 1rem 2rem;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    position: fixed;
+    top: auto;
+    width: 96%;
 }
 
 .navbar {
@@ -24,4 +28,14 @@
 .nav-links a {
     color: white;
     text-decoration: none;
+}
+
+.header.transparent {
+    background-color: #101932;
+}
+
+.header.scrolled {
+    background-color: #1c3f60;
+    color: white;
+    padding: 1rem 2rem;
 }

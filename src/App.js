@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
+import './index.css'; // Make sure to import the CSS file
 
 const App = () => {
     return (
@@ -12,7 +13,7 @@ const App = () => {
             <Router>
                 <div className="app">
                     <Header />
-                    <main>
+                    <main className="main-content">
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/dashboard" element={<Dashboard />} />
