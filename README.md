@@ -23,9 +23,6 @@ To run this project locally, follow these steps:
 2. **Install dependencies**:
    ```bash
    npm install
-   cd client
-   npm install
-   cd ..
    ```
 
 3. **Set up environment variables**:
