@@ -30,10 +30,8 @@ To run this project locally, follow these steps:
 
 4. **Run the project**:
    ```bash
-   npm run dev
+   npm start
    ```
-
-   This will start both the client and server using `concurrently`.
 
 ## Usage
 
